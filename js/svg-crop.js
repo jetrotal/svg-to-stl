@@ -585,7 +585,7 @@ class SVGGroup2D {
                 }
             }
             else {
-                console.log("WARNING: svg element not handled - " + elem);
+                console.log("WARNING: svg element not handled - " + JSON.stringify(elem));
             }
 
             if (elem["attributes"] && ("clip-path" in elem["attributes"])) {
